@@ -1,0 +1,52 @@
+# 🔥 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# 🔥 Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Docker volumes (if any local data)
+redis-data/
+
+# 🔥 FastAPI / Uvicorn
+*.db
+*.sqlite3
+
+# 🔥 Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🔥 Misc
+*.bak
+*.tmp
